@@ -58,11 +58,11 @@ input {
   cursor: pointer;
 }
 input:focus {
-    border: 2px solid var(--Strong-cyan);
-    background-color: var(--Light-grayish-cyan);
+  border: 2px solid var(--Strong-cyan);
+  background-color: var(--Light-grayish-cyan);
 }
 #add_amount_input {
-    position: relative;
+  position: relative;
   width: 100%;
 }
 #number_of_people_input {
@@ -87,11 +87,11 @@ input:focus {
   cursor: pointer;
 }
 .tips:hover {
-    background-color: var(--Light-grayish-cyan);
-} 
+  background-color: var(--Light-grayish-cyan);
+}
 .active_tip {
-    background-color: var(--Light-grayish-cyan);
-    color: var(--Very-dark-cyan);
+  background-color: var(--Light-grayish-cyan);
+  color: var(--Very-dark-cyan);
 }
 #custom_tip {
   width: 100%;
@@ -140,6 +140,12 @@ input::-webkit-inner-spin-button {
 .error_input {
   border: 2px solid red;
   color: red;
+  background-color: rgba(255, 0, 0, 0.292);
+}
+.error_input:focus {
+  border: 2px solid red;
+  color: red;
+  background-color: rgba(255, 0, 0, 0.292);
 }
 .part1,
 .part2,
@@ -150,11 +156,12 @@ input::-webkit-inner-spin-button {
 .part2 > label {
   padding-bottom: 1em;
 }
-.icon1, .icon2 {
-    position: absolute;
-    bottom: 22%;
-    left: 5%;
-    z-index: 10;
+.icon1,
+.icon2 {
+  position: absolute;
+  bottom: 22%;
+  left: 5%;
+  z-index: 10;
 }
 .reset {
   width: 100%;
